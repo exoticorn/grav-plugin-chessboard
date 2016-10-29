@@ -19,7 +19,7 @@ class FENShortcode extends Shortcode
             $hash = $this->shortcode->getId($sc);
 
             $output = '<div id="'.$hash.'" style="width: 250px"></div>';
-            $output = $output . '<script>ChessBoard("'.$hash.'", {position:"'.$sc->getContent().'",pieceTheme:"/user/plugins/chessboard/img/chesspieces/wikipedia/{piece}.png",showNotation:false})</script>';
+            $output = $output . '<script>ChessBoard("'.$hash.'", {position:"'.$sc->getContent().'",pieceTheme:"'.$this->grav['base_url'].'/user/plugins/chessboard/img/chesspieces/wikipedia/{piece}.png",showNotation:false})</script>';
 
             return $output;
         });
