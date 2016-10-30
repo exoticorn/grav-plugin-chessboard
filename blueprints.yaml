@@ -1,12 +1,12 @@
 name: Chessboard
 version: 0.1.0
 description: Embed a chessboard on your site
-icon: plug
+icon: plus-square-o
 author:
   name: Dennis Ranke
   email: dennis.ranke@gmail.com
 homepage: https://github.com/exoticorn/grav-plugin-chessboard
-keywords: grav, plugin, etc
+keywords: grav, plugin, chess
 bugs: https://github.com/exoticorn/grav-plugin-chessboard/issues
 docs: https://github.com/exoticorn/grav-plugin-chessboard/blob/develop/README.md
 license: MIT
